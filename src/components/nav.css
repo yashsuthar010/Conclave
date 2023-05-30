@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  flex-shrink: 2;
+  background-color: #080808;
+  align-items: center;
+}
+
+.nav h2 {
+  color: #a084dc;
+  font-weight: 400;
+  font-size: 27px;
+  font-family: "orbitron";
+}
+
+.nav button {
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #1c1c1c;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 25px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: #1c1c1c solid 1px;
+}

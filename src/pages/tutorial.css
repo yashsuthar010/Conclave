@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
+
+.container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.tutorialNav {
+  padding: 40px 140px;
+  background-color: #080808;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 2;
+  height: 10vh;
+  align-items: center;
+}
+
+.tutorialNav h2 {
+  color: #a084dc;
+  font-weight: 400;
+  font-size: 27px;
+  font-family: "orbitron";
+}
+
+.tutorialNav button {
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #1c1c1c;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 25px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: #1c1c1c solid 1px;
+}
+
+.content-container {
+  background-color: white;
+  min-height: 90vh;
+
+  padding: 8px 140px;
+  padding-top: 50px;
+}
+
+.content-container h1 {
+  font-size: 3rem;
+}
+
+#p {
+  margin-top: 30px;
+}
+
+.content-container p {
+  color: #000000;
+  font-size: 1.25rem;
+}
+
+.content-container h2 {
+  font-size: 1.6rem;
+}
+
+.content-container img {
+  width: 700px;
+  border-radius: 5px;
+  height: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.content-container h2 {
+  margin-top: 30px;
+}
+
+#note {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+#hash {
+  color: #4c4c6d;
+  font-size: 1.8rem;
+}
+
+.footer1 {
+  background-color: #ffffff;
+  padding: 30px 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.footer1 h2 {
+  color: #a084dc;
+  margin-top: 20px;
+  font-family: "orbitron";
+
+  font-weight: 400;
+}
+
+.iconsList1 {
+  color: rgb(0, 0, 0);
+  list-style: none;
+  display: flex;
+  padding: 0;
+  width: 100px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.iconsList1 li {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.social-icon-tutorial:visited,
+.social-icon-tutorial:active {
+  color: black;
+}
+
+#arrow {
+  font-size: 32px;
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+#arrow:hover {
+  transform: scale(1.1);
+}
